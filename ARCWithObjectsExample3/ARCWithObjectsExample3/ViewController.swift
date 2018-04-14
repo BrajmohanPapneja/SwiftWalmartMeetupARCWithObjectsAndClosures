@@ -25,7 +25,7 @@ class Country {
 
 class City {
     let name: String
-    let country: Country
+    unowned let country: Country
     init(name: String, country: Country) {
         self.name = name
         self.country = country
